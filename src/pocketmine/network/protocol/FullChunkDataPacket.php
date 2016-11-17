@@ -43,7 +43,7 @@ class FullChunkDataPacket extends DataPacket{
 		$this->reset();
 		$this->putVarInt($this->chunkX);
 		$this->putVarInt($this->chunkZ);
-		$this->putByte($this->order);
+		//$this->putByte($this->order); Spawn
 		$this->putString($this->data);
 	}
 
